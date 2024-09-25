@@ -689,7 +689,8 @@ psutil==6.0.0
     #   -r requirements.in
     #   ipykernel
     #   ipyparallel
-psycopg2==2.9.9
+psycopg2-binary==2.9.7
+
     # via -r requirements.in
 pure-eval==0.2.3
     # via
