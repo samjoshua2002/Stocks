@@ -69,6 +69,7 @@ def insertintotable():
             data=data.reset_index()
             #Keep Required cols only
             df=pd.DataFrame()
+            
             df['Date']=data['date']
             df['Open']=data['1. open']
             df['High']=data['2. high']
